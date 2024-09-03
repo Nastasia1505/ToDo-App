@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+.app {
+  margin: 0 auto;
+  margin-top: 120px;
+  background-color: rgb(221, 157, 79);
+  padding: 70px;
+  width: 80%;
+}
+
+.input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(230, 222, 213);
+}
+
+.list {
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+}
+
+.btn__list {
+  padding: 5px;
+}
