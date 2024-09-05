@@ -49,3 +49,7 @@ li {
 .btn__list {
   padding: 5px;
 }
+
+.check {
+  background-color: green;
+}
