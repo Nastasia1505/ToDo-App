@@ -14,19 +14,29 @@
   <body>
     <div class="wrapper">
       <div class="app">
-        <input type="text" placeholder="Enter..." class="input" />
-        <button class="btn">Add</button>
+        <div class="addTasks">
+          <input type="text" placeholder="Enter..." class="input" />
+          <button class="btn addBtn">Add</button>
+          <button class="btn editBtn disable">Edit</button>
+        </div>
+        <!-- <div class="task__list">
+          <h2 class="title__list">Tasks</h2>
+          <p class="count__tasks">0</p>
+        </div> -->
+
         <ul class="list">
           <!-- <li class="item">
+            
             <p class="item__text">Some text</p>
+            <button class="action__btn action__btn-check">
+                <i class="fa-solid fa-check"></i>
+              </button>
             <div class="action">
               <button class="action__btn action__btn-edit">
                 <i class="fa-solid fa-pencil"></i></button
               ><button class="action__btn action__btn-trash">
                 <i class="fa-solid fa-trash-can"></i></button
-              ><button class="action__btn action__btn-check">
-                <i class="fa-solid fa-check"></i>
-              </button>
+              >
             </div>
           </li> -->
         </ul>
