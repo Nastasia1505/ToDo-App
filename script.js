@@ -98,7 +98,6 @@ let TaskList = function () {
         return true;
       }
     });
-    console.log(this.data);
     this.render();
   };
 
@@ -115,7 +114,6 @@ let TaskList = function () {
     this.data.forEach((item) => {
       if (item.date == id) {
         input.value = `${item.name}`;
-        console.log(input.value);
         addBtn.classList.add("disable");
         editBtn.classList.remove("disable");
         editBtn.addEventListener("click", function () {
